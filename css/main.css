@@ -1,0 +1,229 @@
+/* main */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=cyrillic');
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 25px;
+}
+
+#navbar-in.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+#navbar-in.navbar-default {
+    font-size: 14px;
+    background: #a6205d;
+    background-image: linear-gradient(to right, #f93875, #cf2b6a, #a6205d, #7f164d, #5a0d3b);
+    border-width: 0px;
+    border-radius: 0px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#navbar-in.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-weight: bold;
+    background-color: none;
+    transition: 0.3s;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#navbar-in.navbar-default .navbar-nav>li>a:hover,
+#navbar-in.navbar-default .navbar-nav>li>a:focus {
+    color: #5A0D3B;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#navbar-in.navbar-default .navbar-nav>.active>a,
+#navbar-in.navbar-default .navbar-nav>.active>a:hover,
+#navbar-in.navbar-default .navbar-nav>.active>a:focus {
+    color: #5A0D3B;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#navbar-in.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+
+#navbar-in.navbar-default .navbar-toggle:hover,
+#navbar-in.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+
+#navbar-in.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#navbar-in.navbar-default .navbar-toggle:hover .icon-bar,
+#navbar-in.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #888;
+}
+
+.section {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 150px;
+}
+
+.text-h {
+    margin: 0px;
+    padding: 0px 0px 25px 0px;
+}
+
+.text-h * {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 100;
+    color: #444444;
+    text-transform: uppercase;
+}
+
+.text-h *:after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 60px;
+    margin: 15px auto 20px;
+    position: relative;
+    background: #444444;
+}
+
+.white-h  * {
+    color: #fff;
+}
+
+.white-h *:after {
+    background: #fff;   
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    border: 1px solid #fff;
+    transition: all .5s;
+    font-weight: bold;
+}
+
+.btn-outline:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#header {
+    width: 100%;
+    min-height: 100vh;
+    background: url('../images/header.jpg') top center;
+    background-size: cover;
+    color: #fff;
+}
+
+#header .htop {
+    padding-top: 50%;
+    margin-top: -100px;
+    margin-bottom: 35px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#header .btn {
+    min-width: 200px;
+}
+
+#header img {
+    margin: 100px auto;
+    width: 100%;
+    height: auto;
+    animation: 5s linear 0s normal none infinite running rot;
+    -webkit-animation: 5s linear 0s normal none infinite running rot;
+}
+
+
+#about {
+    
+}
+
+#games {
+    
+}
+
+#games div.status {
+    margin-bottom: 10px;
+}
+
+#games div.mr-bottom {
+    margin-bottom: 25px;
+}
+
+#games div.poster {
+    display:inline-block;   
+    position:relative;
+}
+
+#games div.poster img {
+    width: 100%;
+    height: auto;
+}
+
+#games div.poster .title {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    color: #fff;
+    padding: 15px;
+    background-color: rgba(0,0,0,.3);
+}
+
+#games div.poster .title-big {
+    padding: 25px;
+}
+
+#games div.poster .title h5 {
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+
+#games div.poster .title>div {
+    margin-top: 15px;
+}
+
+#strength {
+    padding: 100px 0px;
+    background-image: linear-gradient(to right top, #f93875, #cf2b6a, #a6205d, #7f164d, #5a0d3b);
+    color: #fff;
+}
+
+#strength h4 {
+    margin-top: 50px;
+}
+
+#strength img {
+    height: auto;
+    width: 100%;
+    animation: 5s linear 0s normal none infinite running rot;
+    -webkit-animation: 5s linear 0s normal none infinite running rot;
+}
+
+footer {
+    padding: 25px;
+    background: #262626;
+    color: #fff;
+    font-size: 90%;
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+}
+@-webkit-keyframes rot {
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
